@@ -67,12 +67,5 @@ namespace ManejoDeErrores
             get { return descrip; }
             set { descrip = value; }
         }
-
-
-
-
-
-
-
     }
 }

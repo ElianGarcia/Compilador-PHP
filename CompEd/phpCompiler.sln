@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompEd", "CompEd\CompEd.csproj", "{8BAE5A7B-B476-49E4-949F-D5C6693249BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "CompEd\UI.csproj", "{8BAE5A7B-B476-49E4-949F-D5C6693249BD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tsimbolos", "Tsimbolos\Tsimbolos.csproj", "{EE38529B-B8BD-4502-A00F-1FE6FA6ACF57}"
 EndProject
@@ -52,5 +52,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8EB2413-B190-43A1-A635-716F18641049}
 	EndGlobalSection
 EndGlobal

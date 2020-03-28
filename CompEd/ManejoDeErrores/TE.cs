@@ -52,16 +52,18 @@ namespace ManejoDeErrores
 
            Tabla_Errores te7 = new Tabla_Errores(7, "error de desbordamiento", "asegurese del tamaño del resultado ", "Se produce cuando una operación aritmética en un contexto produce un desbordamiento.");
            TErrores.Add(te7);
+
            Tabla_Errores te8 = new Tabla_Errores(8, "error de Ambito", "asegurese de que las llaves '{' tengan su contraparte '}' ", "Se produce cuando hay alguna llave sin cerrar, ambito incompleto");
            TErrores.Add(te8);
+
            Tabla_Errores te9 = new Tabla_Errores(9, "sintaxis desconocida", "asegurese de que la sintaxis sea correcta ", "Se produce cuando se desconoce la sintaxis de la sentencia");
            TErrores.Add(te9);
+
            Tabla_Errores te10 = new Tabla_Errores(10, "sintaxis erronea", "asegurese de que la sintaxis sea correcta, verifique espacios ", "Se produce cuando la sintaxis de la sentencia contiene algun error");
            TErrores.Add(te10);
+
            Tabla_Errores te11 = new Tabla_Errores(11, "warning", "asegurese de que las variables no esten repetidas ", "Se produce cuando mas de una variable estan inicializadas con el mismo nombre");
            TErrores.Add(te11);
-       
-       
        }
 
        public List<Tabla_Errores> llamatablaE()
